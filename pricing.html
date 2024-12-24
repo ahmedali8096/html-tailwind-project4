@@ -5,32 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>project4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>pricing</title>
 </head>
 
-<body>
-    <nav class="px-6 py-4 flex items-center md:py-12 xl:container mx-auto">
-        <div class="w-26">
+<body >
+    <section class=" bg-green-50">
+    <nav class="px-6 bg-green-50 py-4 flex md:py-12 max-w-screen-xl mx-auto">
+        <div class="w-28 xl:mr-36">
             <img class="w-full" src="img/pulse-logo.svg" alt="logo">
         </div>
-        <ul class="flex space-x-10 content-center invisible absolute right-6 md:visible ">
+        <div>
+
+        <ul class="flex space-x-10  invisible absolute right-6 xl:relative xl:ml-96 md:visible ">
             <li></li>
-            <li class="content-center text-green-600 font-bold">Features</li>
-            <li class="content-center text-green-600 font-bold">Customers Stories</li>
-            <li class="content-center font-bold">Prizing </li>
-            <li class="content-center text-green-600 font-bold"> Blog</li>
-            <li class="border-2 border-green-600 px-4 py-1 text-green-600 font-bold"> Sign Up</li>
+            <li class="content-center text-green-600 font-bold active:text-black"> <a href="features.html">Features</a></li>
+            <li class="content-center text-green-600 font-bold active:text-black"><a href="stories.html">Customers Stories</a></li>
+            <li class="content-center font-bold text-green-600  active:text-black"><a href="pricing.html">Prizing</a> </li>
+            <li class="content-center text-green-600 font-bold active:text-black"> <a href="blog.html">Blog</a></li>
+            <li class="border-2 border-green-600 px-4 py-1 text-green-600 font-bold active:text-black"> Sign Up</li>
         </ul>
+    </div>
         <div class="burger absolute right-6 md:hidden ">
             <div class="w-9 h-0.5 bg-green-500 my-2"></div>
             <div class="w-9 h-0.5 bg-green-500 my-2 "></div>
             <div class="w-9 h-0.5 bg-green-500 my-2"></div>
         </div>
     </nav>
-    <section class=" bg-green-50">
-        <div class="pt-8 p-6 lg:w-[600px] lg:mb-20 mx-auto  ">
+    
+        <div class="pt-8 p-6 lg:w-[600px] lg:mb-20 mx-auto text-center  ">
 
-            <p class="text-5xl font-bold mb-10 md:text-6xl font-bold">
+            <p class="text-5xl font-bold mb-6 md:text-6xl font-bold">
                 Try Pulse free for 30 days.
             </p>
             <p class="text-lg">
@@ -38,90 +43,117 @@
                 free for 30 days.
             </p>
         </div>
-        <div class="lg:flex ">
-            <div class="px-6">
-                <p
-                    class="font-extrabold text-lg Work Sans,Helvetica Neue,Helvetica,Arial,sans-serif; text-green-600 mb-5 ">
-                    These are what we call the Pulse Basics. They’re what every customer gets.</p>
-                <ul class="list-disc mx-5">
-                    <li>Manage cash flow on a daily, weekly, monthly, or yearly basis</li>
-                    <li>Forecast growth with recurring income or expenses that scale automatically</li>
-                    <li>Works with any currency</li>
-                    <li>See Money In and Money Out, categorize transactions, and run helpful reports</li>
-                    <li>Toggle entries and accounts on and off to game out different scenarios</li>
-                </ul>
-                <p class="my-4">Just need the pulse Basic ?<br>
-                    <a class="underline mr-1" href="#">Get them now </a> For 29$ Per Month
-                </p>
+        <div class="lg:flex lg:flex-wrap cursor-pointer max-w-screen-xl mx-auto">
+            <div class="p-6 lg:h-fit lg:w-4/12">
+                <div class=" lg:px-6">
+                    <p
+                        class="font-extrabold text-lg Work Sans,Helvetica Neue,Helvetica,Arial,sans-serif; text-green-600 mb-5 ">
+                        These are what we call the Pulse Basics. They’re what every customer gets.</p>
+                    <ul class="list-disc mx-5">
+                        <li>Manage cash flow on a daily, weekly, monthly, or yearly basis</li>
+                        <li>Forecast growth with recurring income or expenses that scale automatically</li>
+                        <li>Works with any currency</li>
+                        <li>See Money In and Money Out, categorize transactions, and run helpful reports</li>
+                        <li>Toggle entries and accounts on and off to game out different scenarios</li>
+                    </ul>
+                    <p class="my-4">Just need the pulse Basic ?<br>
+                        <a class="underline mr-1" href="#">Get them now </a> For 29$ Per Month
+                    </p>
+                </div>
             </div>
-            <div class="p-6  ">
-                <div class="border-green-600 border-2 rounded-t-lg bg-white ">
-                    <div class="bg-green-600 font-bold text-white text-center py-2 rounded-t-md">Recommended</div>
-                    <div class="m-2 sm:flex flex-wrap ">
+                
+            <div class="border-green-600 border-2 rounded-t-lg bg-white p-6 lg:p-0 lg:h-fit lg:w-4/12">
+                <div class="bg-green-600 font-bold text-white text-center py-2 rounded-t-md">Recommended</div>
+                <div class="lg:p-6 lg:flex lg:flex-col lg:justify-center">
+                    <div class="m-2 sm:flex flex-wrap lg:text-center ">
 
                         <p class="text-4xl font-extrabold text-green-600">Small Business Plan </p>
-                        <p class="text-xl text-gray-600 content-center sm:ml-5 "> 59$ Per Month</p>
+                        <p class="text-xl text-gray-600 content-center sm:ml-5 lg:text-center lg:ml-auto mx-auto "> 59$
+                            Per Month</p>
                         <br>
-                        <p class="font-bold mt-8 w-2/3">You Get Pulse Basic, Pulse ;</p>
+                        <div
+                            class="text-lg bg-green-500 text-center  text-gray-700 font-bold p-2  rounded-t hidden hover:scale-125 lg:block w-8/12 lg: text-center mx-auto  mt-6">
+                            Sign UP
+                            Now
+                        </div>
+                        <p class="font-bold mt-8 sm:w-6/12 lg:w-full">You Get Pulse Basic, Pulse ;</p>
 
                     </div>
                     <div>
                         <div>
-                            <p class="p-2 ">Manage cash flow across multiple financial accounts</p>
-                            <p class="p-2"> Invite your investors, book keeper, or management team to see reports or
+                            <p class="p-2 "><span class="mr-1"><i class="fa-solid fa-check"></i></span>Manage cash flow
+                                across multiple financial accounts</p>
+                            <p class="p-2"><span class="mr-1"><i class="fa-solid fa-check"></i></span> Invite your
+                                investors, book keeper, or management team to see reports or
                                 manage
                                 cash
                                 flow</p>
-                            <p class="p-2">Integrate with QuickBooks Online for more accurate cash flow</p>
-                            <p class="p-2">Track your actual cash flow alongside your projected cash flow</p>
+                            <p class="p-2"><span class="mr-1"><i class="fa-solid fa-check"></i></span>Integrate with
+                                QuickBooks Online for more accurate cash flow</p>
+                            <p class="p-2"><span class="mr-1"><i class="fa-solid fa-check"></i></span>Track your actual
+                                cash flow alongside your projected cash flow</p>
                         </div>
                         <div class="p-4">
-                            <div class="text-lg bg-green-500 text-center  text-gray-700 font-bold p-2 rounded-t">Sign UP
+                            <div
+                                class="text-lg bg-green-500 text-center  text-gray-700 font-bold p-2 rounded-t lg:hidden">
+                                Sign UP
                                 Now
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        
 
-                <div class=" bg-white ">
-                    <p class="text-center bg-gray-200 text-gray-700  p-4">Complex business with multipal financial
-                        account,
-                        curression, and
-                        auditing needs?</p>
-                        <div class="p-6">
-                    <div class="p-4 sm:flex flex-wrap ">
+            <div class=" bg-white lg:h-fit lg:w-4/12  ">
+                <p class="text-center bg-gray-200 text-gray-700  p-4">Complex business with multipal financial
+                    account,
+                    curression, and
+                    auditing needs?</p>
+                <div class="p-6 lg:pt-0">
+                    <div class="p-4 sm:flex flex-wrap lg:text-center lg:p-0 ">
                         <p class="text-4xl font-extrabold text-green-600">Unlock Extra Features</p>
-                        <p class=" text-xl my-2 text-gray-600 sm:ml-4">89$ Per Month</p>
-                        <p class="font-bold mt-8 w-2/3">Get it all, Plus:</p>
+                        <p class=" text-xl my-2 text-gray-600 sm:ml-4 lg:ml-auto mr-auto">89$ Per Month</p>
+                        <div
+                            class="text-lg bg-green-500 text-center  text-gray-700 font-bold p-2 rounded-t md:invisible lg:visible w-8/12 lg: text-center mt-6 hidden lg:block mx-auto
+                            hover:scale-125">
+                            Try Premium
+
+                        </div>
+
+                        <p class="font-bold mt-8 w-2/3 lg:w-full lg:mt-4">Get it all, Plus:</p>
                     </div>
-                    <div class="px-8 pb-4">
-                        <p class="p-2">Integrate with QuickBooks Online for more accurate cash flow</p>
-                        <p class="p-2">Track your actual cash flow along your projected cash flow accounts </p>
-                        <p class="p-2">Track your actual cash flow alongside your projected cash flow alongside and
+                    <div class="px-8 pb-4 lg:p-0">
+                        <p class="p-2"><span class="mr-1"><i class="fa-solid fa-check"></i></span>Integrate with
+                            QuickBooks Online for more accurate cash flow</p>
+                        <p class="p-2"><span class="mr-1"><i class="fa-solid fa-check"></i></span>Track your actual cash
+                            flow along your projected cash flow accounts </p>
+                        <p class="p-2"><span class="mr-1"><i class="fa-solid fa-check"></i></span>Track your actual cash
+                            flow alongside your projected cash flow alongside and
                             aduting
                         </p>
                     </div>
-                    <div class="p-4">
-                        <div class="text-lg bg-green-500  text-gray-600 text-center font-bold p-2 rounded-t">Try Premium
+                    <div class="p-4 lg:p-0">
+                        <div class="text-lg bg-green-500 text-gray-600 text-center font-bold p-2 rounded-t lg:hidden ">
+                            Try Premium
                         </div>
                     </div>
                 </div>
-                </div>
-            
-        </div>
-            <div class="py-10">
-                <div class=" flex">
-                    <img class="mx-auto w-20 " src="https://pulseapp.com/img/subvert-avatar@2x.png" alt="logo">
-                </div>
-                <p class="text-2xl text-center py-4 max-w-3xl mx-auto">“Pulse is worth every penny because it empowers
-                    business owners
-                    with critical financial insight and knowledge.”</p>
-                <p class="text-green-600 text-sm text-center font-bold">Subvert Marketing, Inc.</p>
             </div>
-       
+
+        </div>
+        <div class="py-10">
+            <div class=" flex">
+                <img class="mx-auto w-20 " src="https://pulseapp.com/img/subvert-avatar@2x.png" alt="logo">
+            </div>
+            <p class="text-2xl text-center py-4 max-w-3xl mx-auto">“Pulse is worth every penny because it empowers
+                business owners
+                with critical financial insight and knowledge.”</p>
+            <p class="text-green-600 text-sm text-center font-bold">Subvert Marketing, Inc.</p>
+        </div>
+
     </section>
-    <div class="px-8 py-8 md:flex flex-wrap ">
+    <div class="px-8 py-8 md:flex flex-wrap max-w-screen-xl mx-auto">
         <p class="text-3xl w-full font-extrabold mb-6 lg:text-5xl mb-8">FAQ</p>
         <div class="py-4 md:w-[50%] px-4">
             <p class="font-bold text-lg">How does the 30-day free trial work?</p>
@@ -166,7 +198,7 @@
         </div>
     </div>
     <footer class="bg-gray-800 py-8">
-        <div class="md:py-24 lg:flex xl:container mx-auto">
+        <div class="md:py-24 lg:flex max-w-screen-xl mx-auto">
             <div class="px-6 mb-8 lg:w-6/12 ">
                 <div class="w-26 mb-4 lg:mb-16">
                     <img class="mx-auto md:w-40 lg:mx-0 " src="img/pulse-logo.svg" alt="logo">
@@ -179,13 +211,13 @@
                 </div>
             </div>
             <div class="flex px-4 lg:w-5/12  ">
-                <ul class="w-4/12 p-4 leading-10 lg:leading-16 ">
+                <ul class="w-4/12 p-4 leading-10 lg:leading-12 ">
                     <li><a class="font-bold text-white text-xl" href="#">Product</a></li>
                     <li><a class="text-green-500 text-xl" href="#">Features</a></li>
                     <li><a class="text-green-500 text-xl" href="#">Prizing</a></li>
                     <li> <a class="text-green-500 text-xl" href="#">Sign up</a></li>
                 </ul>
-                <ul class="w-4/12 p-4 leading-10  lg:leading-16 ">
+                <ul class="w-4/12 p-4 leading-8  lg:leading-16 ">
                     <li><a class="font-bold text-white text-xl" href="#">Company</a></li>
                     <li><a class="text-green-500 text-xl" href="#">Customer</a></li>
                     <li><a class="text-green-500 text-xl" href="#">Stories</a></li>
@@ -199,7 +231,7 @@
                 </ul>
             </div>
         </div>
-        <div class="xl:container mx-auto">
+        <div class="max-w-screen-xl mx-auto">
             <p class="text-sm text-gray-400 px-4 pt-4 pb-20 sm:pb-0">©2019 Pulseapp.com, Inc. All Rights Reserved | <a
                     class="underline" href="#">Terms of Use</a> |<a class="underline" href="#"> Privacy Policy </a>| <a
                     class="underline" href="#">EU Privacy</a> <br>
